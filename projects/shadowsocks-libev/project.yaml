@@ -1,0 +1,12 @@
+homepage: "https://github.com/shadowsocks/shadowsocks-libev"
+ language: c
+ primary_contact: "test@example.com"
+ sanitizers:
+   - address
+   - undefined
+ fuzzing_engines:
+   - libfuzzer
+   - afl
+ architectures:
+   - x86_64
+ main_repo: 'https://github.com/shadowsocks/shadowsocks-libev.git'
