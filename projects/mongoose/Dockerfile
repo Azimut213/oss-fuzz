@@ -16,7 +16,7 @@
 
 FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update 
-RUN git clone https://github.com/cesanta/mongoose
+RUN git clone https://github.com/Azimut213/mongoose
 WORKDIR $SRC
 COPY build.sh $SRC/
 COPY fuzz_netdriver_http.c $SRC/mongoose/fuzz_netdriver_http.c

@@ -3,4 +3,4 @@ language: c++
 primary_contact: "info@cesanta.com"
 auto_ccs:
   - "david@adalogics.com"
-main_repo: 'https://github.com/cesanta/mongoose'
+main_repo: 'https://github.com/Azimut213/mongoose'
