@@ -32,7 +32,7 @@ RUN git clone --depth 1 https://github.com/google/fuzzing && \
 COPY project-parent $SRC/project-parent/
 
 RUN rm -rf $SRC/project-parent/pdfbox
-RUN git clone --depth 1 https://github.com/Azimut213/pdfbox $SRC/project-parent/pdfbox
+RUN git clone --depth 1 --branch challenges/pdfbox-full-01 https://github.com/Azimut213/pdfbox $SRC/project-parent/pdfbox
 
 COPY build.sh $SRC/
 WORKDIR $SRC/
